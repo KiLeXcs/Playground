@@ -16,7 +16,7 @@ def read(number):
 @app.route('/delete/<int:number>', methods = ["GET"])
 def delete(number):
     info.remove(info[number-1])
-    return f"Данные по номеру ячейки {number} удалены"
+    return f"Данные ячейки {number} удалены"
 
 @app.route('/readall', methods = ["GET"])
 def readall():
