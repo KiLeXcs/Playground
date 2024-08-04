@@ -15,5 +15,5 @@ print ("Пытаемся прочитать данные 6 ячейки)---" + r
 print ("Пытаемся прочитать сразу все данные---" + requests.get("http://127.0.0.1:5000/readall").text)
 print ("Пытаемся удалить данные 1 ячейки---" +requests.get("http://127.0.0.1:5000/delete/1").text)
 print ("Пытаемся прочитать сразу все данные после удаления---" + requests.get("http://127.0.0.1:5000/readall").text)
-##print ("Пытаемся удалить сразу все данные---" + requests.get("http://127.0.0.1:5000/deleteall").text)
+print ("Пытаемся удалить сразу все данные---" + requests.get("http://127.0.0.1:5000/deleteall").text)
 print ("Все удалилось---" + requests.get("http://127.0.0.1:5000/readall").text)

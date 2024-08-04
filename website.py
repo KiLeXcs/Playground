@@ -34,7 +34,7 @@ def read(number):
 def delete(number):
     if check(number):
         info.remove(info[number-1])
-        return ('{"info": "Cell ' + str(number) +' data removed"}')
+        return json.loads('{"info": "Cell ' + str(number) +' data removed"}')
     else:
         return json.loads('{"info": "This data does not exist"}')
 
