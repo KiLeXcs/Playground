@@ -4,7 +4,9 @@
 
 To test this programs you need go to *127.0.0.1:5000* on your **browser**
 
-**function** | **url**
+## API
+
+**API** | **url**
 :-:|:-:|
 main page | *127.0.0.1:5000/*
 save info | *127.0.0.1:5000/save*
@@ -14,17 +16,28 @@ delete all info | *127.0.0.1:5000/deleteall*
 delete information by cell number | *127.0.0.1:5000/delete/number*
 ---
 
-When you do *Post request* you need send *json* in the following form:
+## How to save info
+
+You need do *Post request* and send *json* in the following form:
 ```
 {
-    "info": "You're information"
+    "Info": "You're information"
 }
 ```
+## Status
 
-Я самый лучший объяснятель на этой планете) 
+**Code status** | **Description**
+:-:|:-:|
+OK|Everything work good|
+ERROR|Some issues|
+---
 
-Кирилл, привет. Этот проект еще не готов, но у меня есть кабачки. Тебе не надо?
+## Run programs
+ 
+To run programs you need to do next steps:
+- open cmd
+- git clone https://github.com/KiLeXcs/Playground
+- cd Playground
+- python3 website.py
 
-[Кабачки](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-
-Правда юпуп лагает...
+It's all left
