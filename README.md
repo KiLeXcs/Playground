@@ -6,14 +6,14 @@ To test this programs you need go to *127.0.0.1:5000* on your **browser**
 
 ## API
 
-**API** | **url**
-:-:|:-:|
-main page | *127.0.0.1:5000/*
-save info | *127.0.0.1:5000/save*
-read all info | *127.0.0.1:5000/readall*
-read information by cell number | *127.0.0.1:5000/read/number*
-delete all info | *127.0.0.1:5000/deleteall*
-delete information by cell number | *127.0.0.1:5000/delete/number*
+**API** | **HTTP request** |**url**
+:-:|:-:|:-:|
+main page | ***get*** |  *127.0.0.1:5000/*
+save info | ***post*** |*127.0.0.1:5000/save*
+read all info | ***get*** |*127.0.0.1:5000/readall*
+read information by cell ***number*** | ***get*** | *127.0.0.1:5000/read/**number***
+delete all info | ***get*** |*127.0.0.1:5000/deleteall*
+delete information by cell ***number*** | ***get*** |*127.0.0.1:5000/delete/**number***
 ---
 
 ## How to save info
@@ -34,10 +34,15 @@ ERROR|Some issues|
 
 ## Run programs
  
-To run programs you need to do next steps:
-- open cmd
-- git clone https://github.com/KiLeXcs/Playground
-- cd Playground
-- python3 website.py
+To run this website you need to do next steps:
+1. Open cmd
+2. Print next commands:
+    - git clone https://github.com/KiLeXcs/Playground
+    - cd Playground
+    - python3 website.py
 
-It's all left
+## Test
+Also you can test website with test.py.
+This program doing all possible requests. If everyting work good, it will be print "Success", otherwise "Failed"
+s
+It's all right
