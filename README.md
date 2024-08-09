@@ -43,6 +43,6 @@ To run this website you need to do next steps:
 
 ## Test
 Also you can test website with test.py.
-This program doing all possible requests. If everyting work good, it will be print "Success", otherwise "Failed"
-s
+This program doing all possible requests. If everyting work good, it will be print "Success", otherwise "Failed".
+
 It's all right
